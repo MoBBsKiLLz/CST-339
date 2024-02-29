@@ -7,6 +7,7 @@ public class OrderModel {
 	private float price;
 	private int quantity;
 	
+	// Getters and Setters
 	public Long getId() {
 		return id;
 	}
