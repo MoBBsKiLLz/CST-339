@@ -7,7 +7,7 @@ public class OrderModel {
 	private float price;
 	private int quantity;
 	
-	// Getters and Setters
+	// Getter and Setter for ID
 	public Long getId() {
 		return id;
 	}
@@ -16,6 +16,7 @@ public class OrderModel {
 		this.id = id;
 	}
 	
+	// Getter and Setter for Order Number
 	public String getOrderNo() {
 		return orderNo;
 	}
